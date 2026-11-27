@@ -2,7 +2,7 @@
 # Install the Hive CLI (`hivegraph`). HIVE_VERSION and HIVE_INSTALL_DIR are optional.
 set -euo pipefail
 
-repo="tonycodes/hive-releases"
+repo="tonywritescode/hive-releases"
 dir="${HIVE_INSTALL_DIR:-$HOME/.local/bin}"
 
 case "$(uname -s)-$(uname -m)" in
